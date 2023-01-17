@@ -25,7 +25,7 @@ This project has to hit the following requirements;
 
 ## Link to deployed website
 
-
+https://rbcheung.github.io/Password-Generator/
 
 
 
