@@ -6,7 +6,7 @@ This application allowed us to practice Javascript to generate a random, secure 
 
 The HTML and CSS is untouched as the focus was on JS.
 
-This project has to hit the following requirements;
+This project required us to hit the following requirements;
 
 * Generate a password when the button is clicked
   * Present a series of prompts for password criteria
@@ -21,11 +21,6 @@ This project has to hit the following requirements;
   * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
 ## Demo of Password-Generator
-
-
-
-https://user-images.githubusercontent.com/111018380/212977273-d088b778-7f5b-43ce-953c-4c2578e93194.mov
-
 
 
 
