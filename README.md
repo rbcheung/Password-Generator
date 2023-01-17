@@ -23,6 +23,9 @@ This project has to hit the following requirements;
 ## Demo of Password-Generator
 
 
+https://user-images.githubusercontent.com/111018380/212976368-87d997d5-118f-4eef-a8bc-bb2363a35b19.mov
+
+
 ## Link to deployed website
 
 https://rbcheung.github.io/Password-Generator/
