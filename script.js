@@ -29,7 +29,7 @@ function writePassword() {
 
 // Function to generate password with user input. 
 // 1. For loop over the length of the password inputted by the user. 
-// 2. Random characters selected from possibleChar variable. This variable holds alln possible charcters based on input from user. Math.floor and math random used to select randomitem from the array.
+// 2. Random characters selected from possibleChar variable. This variable holds all possible charcters based on input from user. Math.floor and math.random used to select random item from the array.
 // 3. Created new empty global array called passwordArray and used the .push method to push the data from random item variable into the passwordArray array.
 // Return passwordArray.join method converts the array into a string so it can be returned in the password area box.
 function generatePassword() {
