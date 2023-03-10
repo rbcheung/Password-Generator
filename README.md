@@ -20,9 +20,9 @@ This project required us to hit the following requirements;
   * Code should validate for each input and at least one character type should be selected
   * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
-## Demo of Password-Generator
+## Password-Generator Screenshot
 
-
+![Alt text](assets/screenshot.png)
 
 ## Link to deployed website
 
