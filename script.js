@@ -12,6 +12,7 @@ var confirmUppercase;
 var passwordLength;
 var possibleChar = [];
 var passwordArray = [];
+var passwordText = document.querySelector('#password');
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
@@ -21,9 +22,10 @@ generateBtn.addEventListener('click', writePassword);
 
 // Write password to the #password input
 function writePassword() {
+
+
   getPasswordOptions()
   var password = generatePassword();
-  var passwordText = document.querySelector('#password');
   passwordText.value = password;
 }
 
@@ -33,7 +35,7 @@ function writePassword() {
 // 3. Created new empty global array called passwordArray and used the .push method to push the data from random item variable into the passwordArray array.
 // Return passwordArray.join method converts the array into a string so it can be returned in the password area box.
 function generatePassword() {
-
+  passwordArray = [];
   for (i = 0; i <passwordLength; i++) {
     var randomItem = possibleChar[Math.floor(Math.random() * possibleChar.length)];
 //console.log(randomItem);
@@ -45,7 +47,7 @@ return passwordArray.join("");
 
 // Function to prompt user for password options
 function getPasswordOptions() {
-
+  passwordText.value = "";
   //Prompt for password Length. ParseInt used to convert user input into an interger.
   passwordLength = parseInt(prompt("How many characters would you like your password to contain?"));
   //console.log(passwordLength);
